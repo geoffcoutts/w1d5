@@ -1,0 +1,25 @@
+{
+  "name": "w1d5",
+  "version": "1.0.0",
+  "description": "Lighthouse Labs w1d5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoffcoutts/w1d5.git"
+  },
+  "keywords": [
+    "Lighthouse"
+  ],
+  "author": "Geoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geoffcoutts/w1d5/issues"
+  },
+  "homepage": "https://github.com/geoffcoutts/w1d5#readme",
+  "dependencies": {
+    "chalk": "^2.3.1"
+  }
+}
