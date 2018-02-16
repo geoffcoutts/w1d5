@@ -1,20 +1,18 @@
 var list = [];
 
-function sortData (list, number) {
+function sortData (number) {
   list.push(number);
   list.sort(function(num1, num2){
     return num1 - num2;
   });
   return list;
 }
-
-
-
-console.log(sortData(list, 5));
-console.log(sortData(list, 6));
-console.log(sortData(list, 4));
-console.log(sortData(list, 9));
-console.log(sortData(list, 54));
+// testing
+// console.log(sortData(5));
+// console.log(sortData(6));
+// console.log(sortData(4));
+// console.log(sortData(9));
+// console.log(sortData(-1));
 
 
 module.exports = {
